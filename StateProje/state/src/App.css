@@ -1,0 +1,23 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.appButton {
+  margin-top: 15px;
+  width: 25%;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+
+/*flex-wrap: wrap dersen ekrana sığdırabildiği kadar sığdırır sığdıramadığı durumda bir alt satıra geçer. demeseydik hepsini yatayda dizecekti ve bir scroll verecekti.*/
+.courseList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
